@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Random random = new Random();
+            Random random = new();
 
             List<Table> tables = ExampleTableData(random, 4, 7);
             List<Lamp> lamps = ExampleLampData(random, 4, 7);
